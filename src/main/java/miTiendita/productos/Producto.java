@@ -13,12 +13,16 @@ public class Producto {
         this.punit = punit;
     }
 
-    double getPunit()
+    public int getClave() {
+        return clave;
+    }
+
+    public double getPunit()
     {
         return punit;
     }
 
-    int getCtd()
+    public int getCtd()
     {
         return ctd;
     }
